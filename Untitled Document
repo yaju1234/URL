@@ -20,27 +20,6 @@ root@yajneshwar-desktop:~# cd /home/yajneshwar/workspace/.metadata/.plugins/org.
 root@yajneshwar-desktop:/home/yajneshwar/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects# rm -rf *
 root@yajneshwar-desktop:/home/yajneshwar/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects# 
 
+Android Example link:
 
- vv_url = (VideoView)findViewById(R.id.videoView1);
-        progressBar = (ProgressBar)findViewById(R.id.progressBar1);
-        progressBar.setVisibility(View.VISIBLE);
-        st  = getIntent().getExtras().getString("url");
-        url = st.substring(14, st.length());
-        System.out.println("!-- U "+url);;
-        //url = "http://192.168.0.1/smarterPlace_new/images/avijit.MP4";
-        //url= "http://192.168.0.1/6.11/test.mp3";
-        vv_url.setMediaController(new MediaController(this));
-        vv_url.setVideoPath(Uri.parse(url).toString());
-	vv_url.start();
-	vv_url.requestFocus();  
-        vv_url.setOnPreparedListener(this);
-        
-      
-    }
-    @Override
-    public void onPrepared(MediaPlayer mp) {
-
-	progressBar.setVisibility(View.INVISIBLE);
-	  
-	
-    }
+https://github.com/Trinea/android-open-project
